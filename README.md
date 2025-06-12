@@ -47,13 +47,21 @@ The project utilizes a combination of satellite imagery and historical flood dat
 - **Python** (main language)
   - Libraries: `numpy`, `matplotlib`, `rasterio`, `geopandas`, `earthpy`, `GDAL`
 - **Jupyter Notebook** for data exploration and visualization
+  
+### 🤖 AI & Machine Learning
 
+- **Machine Learning Models**: Trained on historical flood data and NDWI outputs to classify flood-prone zones.
+- **Supervised Classification**: Applied to Sentinel imagery to distinguish between water and non-water surfaces.
+- **Python-based notebooks** used for feature extraction, model training, and accuracy evaluation.
+
+  
 ## Features
 
 - NDWI calculation from Sentinel-2 data
 - Visualization of flooded areas before and after rainfall events
 - Support for zooming into infrastructure (e.g., roads, agriculture zones)
 - Exportable maps for disaster management use
+
 
 ## Achievements
 
